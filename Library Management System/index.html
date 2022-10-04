@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library project</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="Stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><i class="fa fa-book" aria-hidden="true"></i>  LIBRARY MANAGEMENT SYSTEM
+              
+            </li>
+            <div class="navi">
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> HOME</a></li>
+                <li><a href="booklist.html"><i class="fa fa-bookmark" aria-hidden="true"></i> BOOKLIST</a></li>
+                <li><a href="./contact.html"><i class="fa fa-address-card" aria-hidden="true"></i>  CONTACT</a></li>
+            </div>
+            <div class="icon">
+                <input type="search" placeholder="Search" >
+                <i class="fa fa-search" style="font-size: 25px; margin: 5px;"></i>
+                
+             </div>
+        </ul>
+    </nav>
+    
+<!-- Login form -->
+    <form action="process.php" method="POST">
+         <div class="imgcontainer">
+          <img src="./imgs/log.jfif" alt="Avatar" class="avatar">
+        </div> 
+      
+        <div class="container">
+          <label for="user"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required><br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+      
+          <button type="submit" class="loginbtn"><b><i class="fa fa-sign-in" aria-hidden="true"></i> Login</b></button>
+          <label>
+        
+          <div class="container1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            
+          </div>
+        </div>
+        <span class="psw"> <a href="#">Forgot password?</a></span>
+       
+      </form>
+    
+</body>
+</html>
